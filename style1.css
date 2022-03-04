@@ -493,7 +493,7 @@ height: 100%; */
         text-transform: capitalize;
     }
     .column-2-sub-1 > img{
-        width: 90%;
+        width: 100%;
         height: 60%;
     }
     .column-2-sub-2{
