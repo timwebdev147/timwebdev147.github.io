@@ -1,0 +1,186 @@
+body{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+	height: 100vh;
+	/* overflow: hidden; */
+	margin: 0;
+	/* background-color: #f0f0f0; */
+}
+h1{
+	text-transform: capitalize;
+	text-align: center;
+}
+.fab{
+	font-size: 40px;
+	color: rgba(0, 80, 255, 0.5);
+}
+/* .faq-container{
+	background-color: black;
+} */
+.fa-car-battery{
+	font-size: 40px;
+	color: rgba(0, 80, 255, 0.5);
+}
+.faq{
+	background-color: transparent;
+	border: 1px solid #9fa4a8;
+	border-radius: 10px;
+	margin: 20px 0;
+	padding: 10px 30px;
+	position: relative;
+	transition: 0.3s ease;
+	overflow: hidden;
+	/* display: flex; */
+}
+.faq.active{
+	background-color: grey;
+	box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1), 0px 3px 6px rgba(0, 0, 0, 0.1);
+	padding: 20px 30px;
+}
+.faq.active:before, .faq.active:after{
+	content: '\f075';
+	font-family: 'font awesome 5 free';
+	font-size: 7rem;
+	position: absolute;
+	z-index: 0;
+	color: black;
+	opacity: 0.3;
+	top: -2;
+	left: 20;
+}
+.faq.active:after{
+	top: 20;
+	left: 50;
+	color: yellow;
+	transform: rotatey(180deg);
+}
+.faq-text::before{
+	content: 'ans:';
+	font-weight: 600;
+}
+.faq-title{
+	margin-right: 35px;
+}
+.faq-text{
+	display: none;
+	margin: 30px 0 0;
+}
+.faq.active .faq-text{
+	display: block;
+	color: white;
+}
+.faq-toggle {
+	border: 0;
+	border-radius: 50%;
+	background-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+	height: 30px;
+	width: 30px;
+	padding: 0;
+}
+.active > .faq-toggle{
+	top: 50px;
+}
+.active > h3{
+	color: white;
+}
+.faq-toggle .fa-times{
+	display: none;
+}
+.faq.active .faq-toggle .fa-times{
+	display: block;
+	color: white;
+}
+.faq.active .faq-toggle .fa-chevron-down{
+	display: none;
+}
+.faq.active .faq-toggle{
+	background-color: gray;
+}
+
+.b-example-divider {
+	height: 3rem;
+	background-color: rgba(0, 0, 0, .1);
+	border: solid rgba(0, 0, 0, .15);
+	border-width: 1px 0;
+	box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+	vertical-align: -.125em;
+	fill: currentColor;
+  }
+
+
+  .card-class{
+	  /* width: 40%; */
+	  height: 75vh;
+	  /* border: 1px solid black; */
+	  padding: 0%;
+	  position: relative;
+	  background-color: white;
+	  border-radius: 10px;
+	  
+  }
+  .card-class>img{
+	  width: 100%;
+	  height: 50%;
+	  border-radius: 5px;
+	  
+  }
+  .card-class::before{
+	  content: "08:00 am - 10:00 am";
+	  background-color: #3ab64c;
+	  color: white;
+	  position: absolute;
+	  top: 197;
+	  right: 15;
+	  padding: 10px;
+	  border-radius: 5px 5px 0 0;
+
+  }
+  .card-class>div>h1{
+	  font-size: 30;
+	  font-weight: 700;
+	  text-align: left;
+	  margin: 15px 30px;
+  }
+  .card-class>div>p{
+	font-size: 20;
+	text-align: left;
+	margin: 0 30px;
+  }
+  .card-class>div>hr{
+	  margin: 20 30px;
+  }
+  .card-class div :last-child{
+	  display: flex;
+	  justify-content: space-between;
+	  padding: 0 30px;
+  }
+  
+  .bg-5{
+	  background-image: url(images/class-bg.jpg);
+	  height: 120vh;
+	  display: flex;
+	  align-items: center;
+	  /* padding-top: 200px; */
+	  position: relative;
+  }
+  /* .bg-5::before{
+	content: "Our Popular Classes ";
+	position: absolute;
+	color: white;
+	font-size: 40;
+	font-weight: 700;
+	top: 10;
+	left: 500;
+  } */
+  
