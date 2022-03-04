@@ -520,8 +520,11 @@ height: 100%; */
     .card-class{
         width: 80%;
     }
-    footer > .row > col-2{
-    margin-left: 20px;
+    .row > .col-2{
+    margin-right: 10px;
+    }
+    .navbar-brand  > img{
+        width: 250px;
     }
   }
   
