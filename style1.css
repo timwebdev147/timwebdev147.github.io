@@ -507,6 +507,9 @@ height: 100%; */
     .column-1 > div{
         padding: 0%;
     }
+    .bc-5{
+        Height: 90vh;
+    }
     .bg-5::before{
         left: 20%;
         font-size: 30;
