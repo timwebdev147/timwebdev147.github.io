@@ -507,7 +507,7 @@ height: 100%; */
     .column-1 > div{
         padding: 0%;
     }
-    .bc-5{
+    .bg-5{
         Height: 90vh;
     }
     .bg-5::before{
@@ -519,6 +519,9 @@ height: 100%; */
     }
     .card-class{
         width: 80%;
+    }
+    footer > .row > col-2{
+    margin-left: 20px;
     }
   }
   
