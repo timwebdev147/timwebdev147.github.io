@@ -1,4 +1,15 @@
 $(document).ready(function(){
+    
+    $('.mypage').scroll( function () {
+        if ($('nav').offset().top < 0) {
+            $('nav').addClass('hang-on');
+        }
+         else {
+            $('nav').removeClass('hang-on');
+        }
+    }
+    );
+    
 
     const loadText = $(".loading-Text")[0];
     const bg = $(".mypage")[0];
