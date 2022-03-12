@@ -23,6 +23,7 @@ div{
 .mypage{
     /* display: none; */
     overflow-Y: scroll;
+    padding: 0;
 }
 .course-icon{
     height: 100px;
