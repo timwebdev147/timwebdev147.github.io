@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     $('.mypage').scroll( function () {
-        if ($('nav').offset().top < 0) {
+        if ($('.mypage').scrollTop() > 0) {
             $('nav').addClass('hang-on');
         }
          else {
