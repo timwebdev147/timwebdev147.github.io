@@ -13,6 +13,7 @@ body{
         padding: -5px 0;
         position: fixed;
         top: 0;
+        Width: 100%;
         z-index: 1000;
 }
 h1{
