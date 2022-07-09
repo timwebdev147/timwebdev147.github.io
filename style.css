@@ -11,8 +11,9 @@ body{
 .hang-on{
         background-color: rgba(0,0,0,0.3);
         padding: -5px 0;
-        position: fixed;
+        position: sticky;
         top: 0;
+        Left: 0;
         Width: 100%;
         z-index: 1000;
 }
