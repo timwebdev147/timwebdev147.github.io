@@ -18,8 +18,13 @@ body{
         z-index: 1000;
         Box-shadow: 4px 0px 10px grey;
 }
+#nav-rep{
+        Display: none;
+}
 .nav-rep{
         Width: 100%;
+        Display: block;
+        Height: 100px;
 }
 h1{
 	text-transform: capitalize;
