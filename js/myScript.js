@@ -3,11 +3,11 @@ $(document).ready(function(){
     $('.mypage').scroll( function () {
         if ($('.mypage').scrollTop() > 0) {
             $('nav').addClass('hang-on');
-            $('nav').addClass('nav-rep');
+            $('#nav-rep').addClass('nav-rep');
         }
          else {
             $('nav').removeClass('hang-on');
-            $('nav').removeClass('nav-rep');
+            $('#nav-rep').removeClass('nav-rep');
         }
     }
     );
