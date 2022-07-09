@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     $('.mypage').scroll( function () {
-        if ($('.mypage').scrollTop() > 0) {
+        if ($('.mypage').scrollTop() > 2000) {
             $('nav').addClass('hang-on');
             $('#nav-rep').addClass('nav-rep');
         }
