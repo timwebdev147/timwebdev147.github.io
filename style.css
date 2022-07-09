@@ -16,6 +16,10 @@ body{
         Left: 0;
         Width: 100%;
         z-index: 1000;
+        Box-shadow: 4px 0px 10px grey;
+}
+.nav-rep{
+        Width: 100%;
 }
 h1{
 	text-transform: capitalize;
